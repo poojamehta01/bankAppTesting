@@ -1,4 +1,4 @@
-package resources;
+package com.automation.utils;
 
 import java.io.File;
 import java.util.Calendar;
@@ -18,7 +18,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
  
-public class ExtentReporterNG implements IReporter {
+public class ExtendReports implements IReporter {
     private ExtentReports extent;
  
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="false">
-  <test name="Validate addAttachment">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Banking App" parallel="false">
+<listeners>
+<listener class-name="com.automation.utils.ExtendReports" />
+</listeners>
+  <test name="Validate E2E Banking App">
     <classes>
-      <class name="runners.TestRunner"/>
+      <class name="runner.TestRunner"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

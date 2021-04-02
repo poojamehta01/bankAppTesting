@@ -5,6 +5,8 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
 import com.automation.utils.LogUtils;
 
 import static com.automation.utils.AssertionUtils.*;
@@ -63,6 +65,7 @@ public class MainPage {
 	private WebElement accountNumberSearch;
 
 	///////// buttons /////////////
+	@Test
 	public void clicksOnAddCustomer() {
 
 		clickOnElement(addCustomer);
@@ -70,6 +73,7 @@ public class MainPage {
 
 	}
 
+	@Test
 	public void clicksOnOpenAccount() {
 
 		clickOnElement(openAccount);
@@ -77,13 +81,15 @@ public class MainPage {
 
 	}
 
+	@Test
 	public void clicksOnCustomers() {
 		clickOnElement(Customers);
 		Log.debug("Clicks on Customers Button");
 
 	}
-///////// customer details /////////////
 
+///////// customer details /////////////
+	@Test
 	public void customerDetails() {
 
 		sendKeysTo(firstName, getPropertyByKey("firstName"));
@@ -97,6 +103,7 @@ public class MainPage {
 
 	}
 
+	@Test
 	public void clicksOnAddCustomerSubmit() {
 		// TODO Auto-generated method stub
 		clickOnElement(addCustSubmit);
@@ -104,8 +111,9 @@ public class MainPage {
 		alert();
 
 	}
-///////// open account /////////////
 
+///////// open account /////////////
+	@Test
 	public void selectsCustomerCurrency() {
 		// TODO Auto-generated method stub
 		clickOnElement(userSelect);
@@ -119,6 +127,7 @@ public class MainPage {
 
 	}
 
+	@Test
 	public void clicksOnProcess() {
 		// TODO Auto-generated method stub
 		clickOnElement(Process);
@@ -127,6 +136,7 @@ public class MainPage {
 	}
 
 /// search /////	
+	@Test
 	public void search() throws InterruptedException {
 		// TODO Auto-generated method stub
 		sendKeysTo(search, getPropertyByKey("postCode"));
@@ -141,6 +151,7 @@ public class MainPage {
 
 	}
 
+	@Test
 	public void verifyCustomerDetails() {
 		// TODO Auto-generated method stub
 		Log.debug("assertion on firstName");

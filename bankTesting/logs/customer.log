@@ -2883,3 +2883,268 @@ expected : mehta3
 actual : 411019
 expected : 411019
 17:14:39.588 [main] DEBUG com.automation.utils.LogUtils - Closing the webDrvier
+17:21:06.816 [main] DEBUG com.automation.utils.LogUtils - Initializing the webDrvier
+17:21:11.053 [main] INFO  com.automation.utils.LogUtils - Verifying that user is on login Page
+17:21:11.065 [main] INFO  com.automation.utils.LogUtils - Actual text is Protractor practice website - Banking App and expected text is Protractor practice website - Banking App
+actual : Protractor practice website - Banking App
+expected : Protractor practice website - Banking App
+17:21:11.065 [main] INFO  com.automation.utils.LogUtils - Login Page Title found
+17:21:11.066 [main] INFO  com.automation.utils.LogUtils - Performing login
+17:21:11.072 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:21:11.144 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:21:11.220 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:21:11.220 [main] DEBUG com.automation.utils.LogUtils - User clicks Bank Manager Login
+17:21:11.230 [main] INFO  com.automation.utils.LogUtils - Verfying Add Cutomer
+17:21:11.230 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:21:11.424 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:21:11.541 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:21:11.542 [main] DEBUG com.automation.utils.LogUtils - Clicks on addCustomer Button
+17:21:11.543 [main] INFO  com.automation.utils.LogUtils - Entering customer Dtails
+17:21:11.543 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:21:12.238 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:21:12.534 [main] DEBUG com.automation.utils.LogUtils - Entering value
+17:21:12.535 [main] DEBUG com.automation.utils.LogUtils - firstName entered
+17:21:12.535 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:21:12.576 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:21:12.729 [main] DEBUG com.automation.utils.LogUtils - Entering value
+17:21:12.729 [main] DEBUG com.automation.utils.LogUtils - lastName entered
+17:21:12.730 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:21:12.779 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:21:12.970 [main] DEBUG com.automation.utils.LogUtils - Entering value
+17:21:12.971 [main] DEBUG com.automation.utils.LogUtils - postCode entered
+17:21:12.971 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:21:13.011 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:21:13.084 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:21:13.085 [main] DEBUG com.automation.utils.LogUtils - Add customer Details submitted
+17:21:13.109 [main] DEBUG com.automation.utils.LogUtils - User clicks ok
+17:21:13.110 [main] INFO  com.automation.utils.LogUtils - Verfying open Account
+17:21:13.110 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:21:13.160 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:21:13.230 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:21:13.231 [main] DEBUG com.automation.utils.LogUtils - Clicks on openAccount Button
+17:21:13.232 [main] INFO  com.automation.utils.LogUtils - Selecting Customer & Curreny
+17:21:13.233 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:21:13.894 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:21:14.163 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:21:14.164 [main] DEBUG com.automation.utils.LogUtils - User Selected
+17:21:14.165 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:21:14.303 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:21:14.360 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:21:14.360 [main] DEBUG com.automation.utils.LogUtils - cutomer6 Selected
+17:21:14.361 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:21:14.402 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:21:14.489 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:21:14.489 [main] DEBUG com.automation.utils.LogUtils - currency Selected
+17:21:14.489 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:21:14.538 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:21:14.594 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:21:14.595 [main] DEBUG com.automation.utils.LogUtils - Rupee Selected
+17:21:14.596 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:21:14.697 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:21:14.869 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:21:14.870 [main] DEBUG com.automation.utils.LogUtils - process Button Clicked
+17:21:14.908 [main] DEBUG com.automation.utils.LogUtils - User clicks ok
+17:21:14.910 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:21:15.072 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:21:15.149 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:21:15.150 [main] DEBUG com.automation.utils.LogUtils - Clicks on Customers Button
+17:21:15.152 [main] INFO  com.automation.utils.LogUtils - Verifying customer added Successfully
+17:21:15.152 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:21:15.782 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:21:16.110 [main] DEBUG com.automation.utils.LogUtils - Entering value
+17:21:16.111 [main] DEBUG com.automation.utils.LogUtils - Search by postCode entered
+17:21:16.276 [main] DEBUG com.automation.utils.LogUtils - Element  should be displayed !!!
+17:21:16.277 [main] INFO  com.automation.utils.LogUtils - Verifying firstName
+17:21:16.278 [main] DEBUG com.automation.utils.LogUtils - assertion on firstName
+17:21:16.365 [main] DEBUG com.automation.utils.LogUtils - Assertion on actuals vs expcted
+17:21:16.366 [main] INFO  com.automation.utils.LogUtils - Actual text is pooja3 and expected text is pooja3
+actual : pooja3
+expected : pooja3
+17:21:16.366 [main] DEBUG com.automation.utils.LogUtils - assertion on lastName
+17:21:16.430 [main] DEBUG com.automation.utils.LogUtils - Assertion on actuals vs expcted
+17:21:16.430 [main] INFO  com.automation.utils.LogUtils - Actual text is mehta3 and expected text is mehta3
+actual : mehta3
+expected : mehta3
+17:21:16.430 [main] DEBUG com.automation.utils.LogUtils - assertion on postCode
+17:21:16.490 [main] DEBUG com.automation.utils.LogUtils - Assertion on actuals vs expcted
+17:21:16.490 [main] INFO  com.automation.utils.LogUtils - Actual text is 411019 and expected text is 411019
+actual : 411019
+expected : 411019
+17:21:16.491 [main] DEBUG com.automation.utils.LogUtils - Closing the webDrvier
+17:43:01.623 [main] DEBUG com.automation.utils.LogUtils - Initializing the webDrvier
+17:43:04.644 [main] INFO  com.automation.utils.LogUtils - Verifying that user is on login Page
+17:43:04.656 [main] INFO  com.automation.utils.LogUtils - Actual text is Protractor practice website - Banking App and expected text is Protractor practice website - Banking App
+actual : Protractor practice website - Banking App
+expected : Protractor practice website - Banking App
+17:43:04.657 [main] INFO  com.automation.utils.LogUtils - Login Page Title found
+17:43:04.658 [main] INFO  com.automation.utils.LogUtils - Performing login
+17:43:04.664 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:43:04.737 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:43:04.794 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:43:04.794 [main] DEBUG com.automation.utils.LogUtils - User clicks Bank Manager Login
+17:43:04.797 [main] INFO  com.automation.utils.LogUtils - Verfying Add Cutomer
+17:43:04.797 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:43:05.378 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:43:05.426 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:43:05.426 [main] DEBUG com.automation.utils.LogUtils - Clicks on addCustomer Button
+17:43:05.426 [main] INFO  com.automation.utils.LogUtils - Entering customer Dtails
+17:43:05.426 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:43:05.975 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:43:06.079 [main] DEBUG com.automation.utils.LogUtils - Entering value
+17:43:06.079 [main] DEBUG com.automation.utils.LogUtils - firstName entered
+17:43:06.079 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:43:06.109 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:43:06.217 [main] DEBUG com.automation.utils.LogUtils - Entering value
+17:43:06.217 [main] DEBUG com.automation.utils.LogUtils - lastName entered
+17:43:06.217 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:43:06.396 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:43:06.495 [main] DEBUG com.automation.utils.LogUtils - Entering value
+17:43:06.496 [main] DEBUG com.automation.utils.LogUtils - postCode entered
+17:43:06.496 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:43:06.524 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:43:06.576 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:43:06.576 [main] DEBUG com.automation.utils.LogUtils - Add customer Details submitted
+17:43:06.595 [main] DEBUG com.automation.utils.LogUtils - User clicks ok
+17:43:06.595 [main] INFO  com.automation.utils.LogUtils - Verfying open Account
+17:43:06.595 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:43:06.631 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:43:06.688 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:43:06.688 [main] DEBUG com.automation.utils.LogUtils - Clicks on openAccount Button
+17:43:06.689 [main] INFO  com.automation.utils.LogUtils - Selecting Customer & Curreny
+17:43:06.689 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:43:07.259 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:43:07.321 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:43:07.321 [main] DEBUG com.automation.utils.LogUtils - User Selected
+17:43:07.322 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:43:07.358 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:43:07.394 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:43:07.394 [main] DEBUG com.automation.utils.LogUtils - cutomer6 Selected
+17:43:07.394 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:43:07.426 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:43:07.491 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:43:07.491 [main] DEBUG com.automation.utils.LogUtils - currency Selected
+17:43:07.491 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:43:07.535 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:43:07.573 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:43:07.573 [main] DEBUG com.automation.utils.LogUtils - Rupee Selected
+17:43:07.573 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:43:07.604 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:43:07.657 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:43:07.657 [main] DEBUG com.automation.utils.LogUtils - process Button Clicked
+17:43:07.672 [main] DEBUG com.automation.utils.LogUtils - User clicks ok
+17:43:07.672 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:43:07.725 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:43:07.776 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:43:07.776 [main] DEBUG com.automation.utils.LogUtils - Clicks on Customers Button
+17:43:07.777 [main] INFO  com.automation.utils.LogUtils - Verifying customer added Successfully
+17:43:07.777 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:43:08.324 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:43:08.452 [main] DEBUG com.automation.utils.LogUtils - Entering value
+17:43:08.452 [main] DEBUG com.automation.utils.LogUtils - Search by postCode entered
+17:43:08.504 [main] DEBUG com.automation.utils.LogUtils - Element  should be displayed !!!
+17:43:08.504 [main] INFO  com.automation.utils.LogUtils - Verifying firstName
+17:43:08.504 [main] DEBUG com.automation.utils.LogUtils - assertion on firstName
+17:43:08.537 [main] DEBUG com.automation.utils.LogUtils - Assertion on actuals vs expcted
+17:43:08.537 [main] INFO  com.automation.utils.LogUtils - Actual text is pooja3 and expected text is pooja3
+actual : pooja3
+expected : pooja3
+17:43:08.538 [main] DEBUG com.automation.utils.LogUtils - assertion on lastName
+17:43:08.573 [main] DEBUG com.automation.utils.LogUtils - Assertion on actuals vs expcted
+17:43:08.573 [main] INFO  com.automation.utils.LogUtils - Actual text is mehta3 and expected text is mehta3
+actual : mehta3
+expected : mehta3
+17:43:08.574 [main] DEBUG com.automation.utils.LogUtils - assertion on postCode
+17:43:08.602 [main] DEBUG com.automation.utils.LogUtils - Assertion on actuals vs expcted
+17:43:08.602 [main] INFO  com.automation.utils.LogUtils - Actual text is 411019 and expected text is 411019
+actual : 411019
+expected : 411019
+17:43:08.602 [main] DEBUG com.automation.utils.LogUtils - Closing the webDrvier
+17:47:50.879 [main] DEBUG com.automation.utils.LogUtils - Initializing the webDrvier
+17:47:57.202 [main] DEBUG com.automation.utils.LogUtils - Initializing the webDrvier
+17:48:00.206 [main] INFO  com.automation.utils.LogUtils - Verifying that user is on login Page
+17:48:00.226 [main] INFO  com.automation.utils.LogUtils - Actual text is Protractor practice website - Banking App and expected text is Protractor practice website - Banking App
+actual : Protractor practice website - Banking App
+expected : Protractor practice website - Banking App
+17:48:00.226 [main] INFO  com.automation.utils.LogUtils - Login Page Title found
+17:48:00.227 [main] INFO  com.automation.utils.LogUtils - Performing login
+17:48:00.233 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:48:00.327 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:48:00.385 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:48:00.385 [main] DEBUG com.automation.utils.LogUtils - User clicks Bank Manager Login
+17:48:00.389 [main] INFO  com.automation.utils.LogUtils - Verfying Add Cutomer
+17:48:00.389 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:48:00.950 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:48:00.997 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:48:00.997 [main] DEBUG com.automation.utils.LogUtils - Clicks on addCustomer Button
+17:48:00.997 [main] INFO  com.automation.utils.LogUtils - Entering customer Dtails
+17:48:00.997 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:48:01.565 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:48:01.672 [main] DEBUG com.automation.utils.LogUtils - Entering value
+17:48:01.673 [main] DEBUG com.automation.utils.LogUtils - firstName entered
+17:48:01.673 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:48:01.827 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:48:01.944 [main] DEBUG com.automation.utils.LogUtils - Entering value
+17:48:01.945 [main] DEBUG com.automation.utils.LogUtils - lastName entered
+17:48:01.945 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:48:01.979 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:48:02.094 [main] DEBUG com.automation.utils.LogUtils - Entering value
+17:48:02.095 [main] DEBUG com.automation.utils.LogUtils - postCode entered
+17:48:02.095 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:48:02.124 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:48:02.171 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:48:02.172 [main] DEBUG com.automation.utils.LogUtils - Add customer Details submitted
+17:48:02.189 [main] DEBUG com.automation.utils.LogUtils - User clicks ok
+17:48:02.189 [main] INFO  com.automation.utils.LogUtils - Verfying open Account
+17:48:02.190 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:48:02.226 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:48:02.280 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:48:02.281 [main] DEBUG com.automation.utils.LogUtils - Clicks on openAccount Button
+17:48:02.281 [main] INFO  com.automation.utils.LogUtils - Selecting Customer & Curreny
+17:48:02.281 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:48:02.826 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:48:02.891 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:48:02.891 [main] DEBUG com.automation.utils.LogUtils - User Selected
+17:48:02.891 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:48:02.924 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:48:02.958 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:48:02.958 [main] DEBUG com.automation.utils.LogUtils - cutomer6 Selected
+17:48:02.958 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:48:02.982 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:48:03.046 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:48:03.047 [main] DEBUG com.automation.utils.LogUtils - currency Selected
+17:48:03.047 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:48:03.082 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:48:03.116 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:48:03.116 [main] DEBUG com.automation.utils.LogUtils - Rupee Selected
+17:48:03.116 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:48:03.145 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:48:03.196 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:48:03.196 [main] DEBUG com.automation.utils.LogUtils - process Button Clicked
+17:48:03.210 [main] DEBUG com.automation.utils.LogUtils - User clicks ok
+17:48:03.211 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:48:03.262 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:48:03.311 [main] DEBUG com.automation.utils.LogUtils - Performing click
+17:48:03.312 [main] DEBUG com.automation.utils.LogUtils - Clicks on Customers Button
+17:48:03.312 [main] INFO  com.automation.utils.LogUtils - Verifying customer added Successfully
+17:48:03.312 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+17:48:03.862 [main] DEBUG com.automation.utils.LogUtils - element is visible
+17:48:03.968 [main] DEBUG com.automation.utils.LogUtils - Entering value
+17:48:03.968 [main] DEBUG com.automation.utils.LogUtils - Search by postCode entered
+17:48:04.022 [main] DEBUG com.automation.utils.LogUtils - Element  should be displayed !!!
+17:48:04.023 [main] INFO  com.automation.utils.LogUtils - Verifying firstName
+17:48:04.023 [main] DEBUG com.automation.utils.LogUtils - assertion on firstName
+17:48:04.054 [main] DEBUG com.automation.utils.LogUtils - Assertion on actuals vs expcted
+17:48:04.054 [main] INFO  com.automation.utils.LogUtils - Actual text is pooja3 and expected text is pooja3
+actual : pooja3
+expected : pooja3
+17:48:04.054 [main] DEBUG com.automation.utils.LogUtils - assertion on lastName
+17:48:04.087 [main] DEBUG com.automation.utils.LogUtils - Assertion on actuals vs expcted
+17:48:04.087 [main] INFO  com.automation.utils.LogUtils - Actual text is mehta3 and expected text is mehta3
+actual : mehta3
+expected : mehta3
+17:48:04.087 [main] DEBUG com.automation.utils.LogUtils - assertion on postCode
+17:48:04.115 [main] DEBUG com.automation.utils.LogUtils - Assertion on actuals vs expcted
+17:48:04.116 [main] INFO  com.automation.utils.LogUtils - Actual text is 411019 and expected text is 411019
+actual : 411019
+expected : 411019
+17:48:04.116 [main] DEBUG com.automation.utils.LogUtils - Closing the webDrvier
