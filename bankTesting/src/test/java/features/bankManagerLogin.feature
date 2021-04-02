@@ -15,3 +15,5 @@ Feature: bankMangerlogin
      
       And User clicks on Customers button on Main page
       And USer searchs the account Details on Main page
+       Then Verify Customer Details account Details on Main page
+       

@@ -15,6 +15,7 @@ public class WebElementUtils extends LogUtils {
 		Log.debug("Waiting for element to be visible");
 		try {
 			wait.until(ExpectedConditions.visibilityOf(element));
+			Log.debug("element is visible");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

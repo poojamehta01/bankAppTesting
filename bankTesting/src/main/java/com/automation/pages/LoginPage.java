@@ -31,7 +31,7 @@ public class LoginPage {
 	public void login() {
 		
 		clickOnElement(BankManagerLogin);
-		Log.info("User clicks Bank Manager Login");
+		Log.debug("User clicks Bank Manager Login");
 		
 		
 	}

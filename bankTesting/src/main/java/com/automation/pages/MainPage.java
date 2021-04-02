@@ -1,7 +1,5 @@
 package com.automation.pages;
 
-
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
@@ -24,7 +22,7 @@ public class MainPage {
 	}
 
 	public static Logger Log = LogManager.getLogger(LogUtils.class.getName());
-	
+
 	/// buttons - addcus, open account, cutomers ////
 	@FindBy(xpath = "//button[@ng-class='btnClass1']")
 	private WebElement addCustomer;
@@ -41,7 +39,7 @@ public class MainPage {
 	private WebElement postCode;
 	@FindBy(xpath = "//button[@type='submit']")
 	private WebElement addCustSubmit;
-	//// open account - select cust, currency, process 
+	//// open account - select cust, currency, process
 	@FindBy(xpath = "//select[@id='userSelect']")
 	private WebElement userSelect;
 	@FindBy(xpath = "//select[@id='currency']")
@@ -63,86 +61,108 @@ public class MainPage {
 	private WebElement postCodeSearch;
 	@FindBy(xpath = "//td[@class='ng-binding'][3]//following-sibling::td//span")
 	private WebElement accountNumberSearch;
-	
-	
-	
-		///////// buttons /////////////
+
+	///////// buttons /////////////
 	public void clicksOnAddCustomer() {
 
 		clickOnElement(addCustomer);
-		Log.info("Clicks on addCustomer Button");
+		Log.debug("Clicks on addCustomer Button");
 
 	}
 
 	public void clicksOnOpenAccount() {
 
 		clickOnElement(openAccount);
-		Log.info("Clicks on openAccount Button");
+		Log.debug("Clicks on openAccount Button");
 
 	}
 
 	public void clicksOnCustomers() {
 		clickOnElement(Customers);
-		Log.info("Clicks on Customers Button");
+		Log.debug("Clicks on Customers Button");
 
 	}
 ///////// customer details /////////////
 
 	public void customerDetails() {
-		
-		
-		
+
 		sendKeysTo(firstName, getPropertyByKey("firstName"));
-		Log.info("firstName entered");
-		
-		
+		Log.debug("firstName entered");
+
 		sendKeysTo(lastName, getPropertyByKey("lastName"));
-		Log.info("lastName entered");
-		
-		
+		Log.debug("lastName entered");
+
 		sendKeysTo(postCode, getPropertyByKey("postCode"));
-		Log.info("postCode entered");
-		
+		Log.debug("postCode entered");
+
 	}
 
 	public void clicksOnAddCustomerSubmit() {
 		// TODO Auto-generated method stub
 		clickOnElement(addCustSubmit);
-		Log.info("Add customer Details submitted");
+		Log.debug("Add customer Details submitted");
 		alert();
-		
+
 	}
 ///////// open account /////////////
-	public void clicksOnProcess() {
-		// TODO Auto-generated method stub
-		clickOnElement(addCustSubmit);
-		Log.info("process Button Clicked");
-		alert();
-	}
 
 	public void selectsCustomerCurrency() {
 		// TODO Auto-generated method stub
 		clickOnElement(userSelect);
+		Log.debug("User Selected");
 		clickOnElement(cutomer6);
+		Log.debug("cutomer6 Selected");
 		clickOnElement(currency);
+		Log.debug("currency Selected");
 		clickOnElement(Rupee);
-		//alert();
-	}
-/// search /////	
-	public void search() {
-		// TODO Auto-generated method stub
-		sendKeysTo(search, getPropertyByKey("firstName"));
-		Log.info("Search by firstName entered");
-		assertPresent(firstNameSearch);
-		assertEquals(firstNameSearch, "pooja3");
-		assertEquals(lastNameSearch, getPropertyByKey("lastName"));
-		assertEquals(postCodeSearch, getPropertyByKey("postCode"));
-		assertEquals(accountNumberSearch, getPropertyByKey("accountNumber"));
-		
-		
-	}
-	
+		Log.debug("Rupee Selected");
 
-	
+	}
+
+	public void clicksOnProcess() {
+		// TODO Auto-generated method stub
+		clickOnElement(Process);
+		Log.debug("process Button Clicked");
+		alert();
+	}
+
+/// search /////	
+	public void search() throws InterruptedException {
+		// TODO Auto-generated method stub
+		sendKeysTo(search, getPropertyByKey("postCode"));
+		Log.debug("Search by postCode entered");
+		assertPresent(search);
+//		Thread.sleep(5000);
+//		assertPresent(postCodeSearch);
+//		 assertEquals(postCodeSearch, postCode);
+//		assertEquals(lastNameSearch, getPropertyByKey("lastName"), lastNameSearch.getText());
+		// assertEquals(postCodeSearch, getPropertyByKey("postCode"));
+		// assertEquals(accountNumberSearch, getPropertyByKey("accountNumber"));
+
+	}
+
+	public void verifyCustomerDetails() {
+		// TODO Auto-generated method stub
+		Log.debug("assertion on firstName");
+		String firstNameActual = getPropertyByKey("firstName");
+		String firstNameExpected = firstNameSearch.getText();
+		assertEquals(firstNameSearch, firstNameActual, firstNameExpected);
+
+		Log.debug("assertion on lastName");
+		String lastNameActual = getPropertyByKey("lastName");
+		String lastNameExpected = lastNameSearch.getText();
+		assertEquals(lastNameSearch, lastNameActual, lastNameExpected);
+
+		Log.debug("assertion on postCode");
+		String postCodeActual = getPropertyByKey("postCode");
+		String postCodeExpected = postCodeSearch.getText();
+		assertEquals(postCodeSearch, postCodeActual, postCodeExpected);
+
+//		Log.debug("assertion on accountNumber");
+//		String postCodeActual = getPropertyByKey("postCode");
+//		String postCodeExpected = postCodeSearch.getText();
+//		assertEquals(postCodeSearch,postCodeActual, postCodeExpected);
+
+	}
 
 }
