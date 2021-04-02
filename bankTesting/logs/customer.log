@@ -1,0 +1,43 @@
+11:08:16.849 [main] DEBUG com.automation.utils.LogUtils - Initializing the webDrvier
+11:08:19.803 [main] INFO  com.automation.utils.LogUtils - Login Page Title found
+11:08:19.807 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+11:08:19.923 [main] DEBUG com.automation.utils.LogUtils - Performing click
+11:08:19.923 [main] INFO  com.automation.utils.LogUtils - User clicks Bank Manager Login
+11:08:19.926 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+11:08:20.528 [main] DEBUG com.automation.utils.LogUtils - Performing click
+11:08:20.528 [main] INFO  com.automation.utils.LogUtils - Clicks on addCustomer Button
+11:08:20.529 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+11:08:21.343 [main] DEBUG com.automation.utils.LogUtils - Entering value
+11:08:21.343 [main] INFO  com.automation.utils.LogUtils - firstName entered
+11:08:21.343 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+11:08:21.472 [main] DEBUG com.automation.utils.LogUtils - Entering value
+11:08:21.472 [main] INFO  com.automation.utils.LogUtils - lastName entered
+11:08:21.472 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+11:08:21.593 [main] DEBUG com.automation.utils.LogUtils - Entering value
+11:08:21.595 [main] INFO  com.automation.utils.LogUtils - postCode entered
+11:08:21.595 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+11:08:21.673 [main] DEBUG com.automation.utils.LogUtils - Performing click
+11:08:21.673 [main] INFO  com.automation.utils.LogUtils - Add customer Details submitted
+11:08:21.689 [main] DEBUG com.automation.utils.LogUtils - User clicks ok
+11:08:21.690 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+11:08:21.769 [main] DEBUG com.automation.utils.LogUtils - Performing click
+11:08:21.770 [main] INFO  com.automation.utils.LogUtils - Clicks on openAccount Button
+11:08:21.770 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+11:08:22.398 [main] DEBUG com.automation.utils.LogUtils - Performing click
+11:08:22.398 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+11:08:22.461 [main] DEBUG com.automation.utils.LogUtils - Performing click
+11:08:22.461 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+11:08:22.548 [main] DEBUG com.automation.utils.LogUtils - Performing click
+11:08:22.549 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+11:08:22.613 [main] DEBUG com.automation.utils.LogUtils - Performing click
+11:08:22.613 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+11:08:22.690 [main] DEBUG com.automation.utils.LogUtils - Performing click
+11:08:22.690 [main] INFO  com.automation.utils.LogUtils - process Button Clicked
+11:08:22.705 [main] DEBUG com.automation.utils.LogUtils - User clicks ok
+11:08:22.705 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+11:08:22.802 [main] DEBUG com.automation.utils.LogUtils - Performing click
+11:08:22.803 [main] INFO  com.automation.utils.LogUtils - Clicks on Customers Button
+11:08:22.804 [main] DEBUG com.automation.utils.LogUtils - Waiting for element to be visible
+11:08:23.464 [main] DEBUG com.automation.utils.LogUtils - Entering value
+11:08:23.464 [main] INFO  com.automation.utils.LogUtils - Search by firstName entered
+11:08:23.678 [main] DEBUG com.automation.utils.LogUtils - Closing the webDrvier
